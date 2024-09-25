@@ -45,6 +45,14 @@ create table PtVisit (
 	constraint visittestidlink FOREIGN KEY (visittestid) references Test(testid)
 );
 
+
+/*
+
+
+Test codes below!
+*/
+
+
 -- Inserting test data into the patient table 
 INSERT INTO patient (pid, fname, lname, address1, address2, city, parish, country, gender) 
 VALUES (1, 'John', 'Doe', '123 Main St', 'Apt 4B', 'Kingston', 'Kingston', 'Jamaica', 'M'), 
