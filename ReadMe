@@ -1,3 +1,6 @@
 This is a Medical Database to be used by a data-entry personell (e.g. a receptionist).
 
 The user is expected to follow the prompts to enter, view and alter patient information regarding visits at the practioner.
+
+I have not yet mastered the process of sharing code online, so the connection to sql server portion and table creations (currently commented) will have to be utilized in order for the
+code to be properly executed.
