@@ -1,6 +1,35 @@
-This is a Medical Database to be used by a data-entry personell (e.g. a receptionist).
+Here’s a complete README template you can copy and paste:
 
-The user is expected to follow the prompts to enter, view and alter patient information regarding visits at the practioner.
+Medical Database Application
+Overview
+A Python-based medical database system for managing patients, treatments, visits, and tests. Includes a GUI for easy interaction.
 
-I have not yet mastered the process of sharing code online, so the connection to sql server portion and table creations (currently commented) will have to be utilized in order for the
-code to be properly executed.
+Features
+Patient management
+Treatment tracking
+Visit records
+Test management
+User-friendly GUI
+Uses SQLite (no server required)
+Installation
+Ensure Python 3.7+ is installed.
+Create and activate a virtual environment:
+Install dependencies (if any):
+(If requirements.txt is missing, install Tkinter and use standard library)
+Usage
+Run the application:
+
+Follow the GUI prompts to manage medical records.
+
+Database
+Uses SQLite (medicalDatabase.db)
+Tables are auto-created if not present
+File Structure
+main.py: Entry point
+gui.py: GUI logic
+backend.py: Core functions
+patient.py, treatment.py, visits.py, tests.py: Database modules
+Troubleshooting
+If database file is missing, it will be created automatically.
+Ensure Python and Tkinter are installed.
+
