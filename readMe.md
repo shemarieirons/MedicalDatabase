@@ -68,12 +68,19 @@ The database file (`medicalDatabase.db`) is automatically generated on first exe
 
 ## 📁 Project Structure  
 ├── main.py              # Application entry point
+
 ├── gui.py               # Tkinter interface layer
+
 ├── backend.py           # Core database operations
+
 ├── patient.py           # Patient table module
+
 ├── treatment.py         # Treatment table module
+
 ├── visits.py            # Visit management module
+
 ├── tests.py             # Test management module
+
 └── medicalDatabase.db   # SQLite database (auto-generated)
 
 ---
